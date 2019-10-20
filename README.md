@@ -4,7 +4,7 @@ Manages the installation of applications on macOS. Applications can be installed
 
 ## Information
 
-Tested on both macOS Catalina and macOS Mojave. Note that the macOS application locations have changed in macOS Catalina as shown in the example below.
+Tested on both macOS Catalina and macOS Mojave.  
 
 ### Adding applications
 
