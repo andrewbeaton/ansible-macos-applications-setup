@@ -1,0 +1,53 @@
+---
+downloads: ~/.ansible-downloads/
+ 
+homebrew_installed_packages: 
+  - bash-completion  
+  - nmap 
+  - wget 
+  - dockutil 
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps: 
+  - 1password6
+  - atext
+  - caffeine 
+  - dropbox  
+  - google-chrome
+  - iterm2 
+  - little-snitch
+  - malwarebytes
+  - micro-snitch
+  - microsoft-office 
+  - royal-tsx
+  - spotify
+  - visual-studio-code
+  - vlc
+
+# Install packages from other package managers.
+composer_packages: []
+  # - name: drush
+  #   state: present # present/absent, default: present
+  #   version: "^8.1" # default: N/A
+
+gem_packages: []
+  # - name: bundler
+  #   state: present # present/absent/latest, default: present
+  #   version: "~> 1.15.1" # default: N/A
+
+npm_packages: []
+  # - name: webpack
+  #   state: present # present/absent/latest, default: present
+  #   version: "^2.6" # default: N/A
+
+pip_packages: []
+  # - name: mkdocs
+  #   state: present # present/absent/latest, default: present
+  #   version: "0.16.3" # default: N/A
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
